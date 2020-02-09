@@ -125,7 +125,94 @@ table {
 * {
   box-sizing: border-box;
   font-size: 62.5%;
+  color: #1b1b1b;
 }
 body {
-  background-color: red;
+  background-color: #eeeeee;
+  font-family: 'Mukta', serif;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  margin: 10vh auto 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  height: 10vh;
+  width: 90vw;
+  padding: 3vh 3vw;
+  box-shadow: -1.2rem -1.2rem 1.2rem 0 #ffffff, 1.2rem 1.2rem 1.2rem 0 rgba(0, 0, 0, 0.08);
+}
+.menu .menu-bar {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+.menu .menu-bar .menu-item {
+  border-radius: 1rem;
+  padding: 1vh 2vw;
+  box-shadow: -12px -12px 12px 0 #ffffff, 12px 12px 12px 0 rgba(0, 0, 0, 0.03);
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+main div {
+  width: 20vw;
+  height: 20vh;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  box-shadow: -12px -12px 12px 0 #ffffff, 12px 12px 12px 0 rgba(0, 0, 0, 0.03);
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20vh;
+  background-color: #A8201A;
+  padding: 10vh 15vw;
+}
+section div {
+  height: 30vh;
+  width: 30vh;
+  text-align: center;
+  padding: auto;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.13), 12px 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1b1b1b;
+  padding: 10vw;
+  color: #eee;
+  margin-top: 0;
+}
+.buttons .btn1 {
+  width: 20vw;
+  height: 10vh;
+  border-radius: 5%;
+  background-color: #1b1b1b;
+  border: none;
+  box-shadow: -4px -4px 12px 0 rgba(255, 255, 255, 0.1), 4px 4px 12px 0 #000000;
+}
+.buttons .btn2 {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 5%;
+  background-color: #1b1b1b;
+  border: none;
+  box-shadow: -4px -4px 12px 0 rgba(255, 255, 255, 0.1), 4px 4px 12px 0 #000000;
+}
+.buttons .btn3 {
+  width: 5vw;
+  height: 15vh;
+  border-radius: 5%;
+  background-color: #1b1b1b;
+  border: none;
+  box-shadow: -4px -4px 12px 0 rgba(255, 255, 255, 0.1), 4px 4px 12px 0 #000000;
 }
